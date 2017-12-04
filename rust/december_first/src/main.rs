@@ -22,8 +22,8 @@ fn main() {
 
     let mut reader = BufReader::new(file);
     let mut buffer = String::new();
-    buffer.trim();
     reader.read_to_string(&mut buffer).expect("Couldn't read file");
+    buffer.trim();
 
     let chars: Vec<_> = buffer.chars().collect();
     let mut vec: Vec<u32> = Vec::new();

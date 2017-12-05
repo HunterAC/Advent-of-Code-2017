@@ -1,0 +1,6 @@
+[package]
+name = "december_third"
+version = "0.1.0"
+authors = ["jhallen3 <jhallen3@crimson.ua.edu>"]
+
+[dependencies]
